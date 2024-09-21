@@ -1,0 +1,36 @@
+Ring Topology  -> Sends data only in one direction
+    -> You cannot send data to from A to D directly because the needs tbe traverse through the B & C and then it will reach to D(single link to each node with clock wise direction)
+
+Types -> Single Ring, Dual Ring
+
+Dual can be used in WAN networks only not in LAN
+It can also occur data collision.
+Communication delay
+
+
+
+Mesh Topology
+No collision
+Network is shared
+It has multiple routes if can is blocked then other can be used for data communication
+
+
+Star Topology
+Each node is connected to central controller node
+No direct link between end nodes the devices can connect to central controller only
+It is very scalable
+It is the best option for LAN 
+
+
+Hybrid Topology
+Combination of more than one basic topology
+
+
+
+Commands
+
+hostname
+getmac
+ipconfig
+ping www.sheridancollege.ca
+tracert www.sheridancollege.ca  -> to trace the path of internet packets that is transferred from Computer to destinantion.
